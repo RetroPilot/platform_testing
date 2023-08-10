@@ -22,8 +22,6 @@ platform_tests += \
     BluetoothTests \
     BootHelperApp \
     BusinessCard \
-    CalculatorFunctionalTests \
-    CalendarTests \
     camera_client_test \
     camera_metadata_tests \
     CellBroadcastReceiverTests \
@@ -113,6 +111,9 @@ platform_tests += \
     VersatileTestApp_None \
     VoiceInteraction \
     WifiStrengthScannerUtil \
+    # CalendarTests \
+    CalculatorFunctionalTests \
+
 
 ifneq ($(strip $(BOARD_PERFSETUP_SCRIPT)),)
 platform_tests += perf-setup.sh

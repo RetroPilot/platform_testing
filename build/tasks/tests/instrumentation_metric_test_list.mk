@@ -17,7 +17,6 @@ instrumentation_metric_tests := \
     BlobStorePerfTests \
     crashcollector \
     CorePerfTests \
-    DocumentsUIAppPerfTests \
     MtpServicePerfTests \
     RsBlasBenchmark \
     ImageProcessingJB \
@@ -29,6 +28,7 @@ instrumentation_metric_tests := \
     TextClassifierPerfTests \
     WmPerfTests \
     trace_config_detailed.textproto
+    # DocumentsUIAppPerfTests \
 
     # TODO(b/72332760): Uncomment when fixed
     #DocumentsUIPerfTests

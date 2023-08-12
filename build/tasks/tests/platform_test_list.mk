@@ -26,7 +26,6 @@ platform_tests += \
     camera_metadata_tests \
     CellBroadcastReceiverTests \
     ConnectivityManagerTest \
-    ContactsTests \
     CtsCameraTestCases \
     CtsHardwareTestCases \
     DataIdleTest \
@@ -113,6 +112,7 @@ platform_tests += \
     WifiStrengthScannerUtil \
     # CalendarTests \
     CalculatorFunctionalTests \
+    ContactsTests \
 
 
 ifneq ($(strip $(BOARD_PERFSETUP_SCRIPT)),)

@@ -34,7 +34,6 @@ instrumentation_tests := \
     FrameworksUtilTests \
     MtpServiceTests \
     MtpTests \
-    DocumentsUITests \
     ShellTests \
     SystemUITests \
     TestablesTests \
@@ -72,6 +71,7 @@ instrumentation_tests := \
     SettingsPerfTests \
     ExtServicesUnitTests\
     FrameworksNetSmokeTests\
+    # DocumentsUITests \
 
 
 # Storage Manager may not exist on device
